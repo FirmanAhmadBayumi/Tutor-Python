@@ -18,5 +18,7 @@ print("Your number is", num1)
 print("Your number is", num2)
 
 """
-
+  jika kita ingin membuat/merubah suatu argumen ke tipe boolean,
+  yang harus kita lakukan adalah dengan cara mengcasting terlebih
+  dahulu ke tipe data integer, seperti contoh dibawah ini :
 """

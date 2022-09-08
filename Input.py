@@ -1,5 +1,8 @@
 """
-  dalam bahasa python ini ketika kita menginput sesuatu maka,
+  dalam bahasa pemrograman python ini ketika kita menginput sesuatu maka,
+  input tersebut secara default adalah bertipe string. Jika ingin merubah
+  inputan sesuai dengan tipe data yang kita inginkan maka harus kita casting terlebih
+  dahulu dengan cara nama_variabel = type_data(input)(args)
 """
 
 data = input("Type something : ")
@@ -14,3 +17,6 @@ num2 = float(input("Type number floating : "))
 print("Your number is", num1)
 print("Your number is", num2)
 
+"""
+
+"""

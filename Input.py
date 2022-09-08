@@ -22,3 +22,7 @@ print("Your number is", num2)
   yang harus kita lakukan adalah dengan cara mengcasting terlebih
   dahulu ke tipe data integer, seperti contoh dibawah ini :
 """
+
+biner = bool(int(input("Masukkan angka : ")))
+
+print("Hasilnya adalah ", biner, "Bertipe ", type(biner))

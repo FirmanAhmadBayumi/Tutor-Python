@@ -1,6 +1,7 @@
-num1 = int(input("Masukkan Angka-1:")) 
-num2 = int(input("Masukkan Angka Ke-2:")) 
+num1 = int(input("Masukkan Angka-1: ")) 
+num2 = int(input("Masukkan Angka Ke-2: ")) 
+num3 = int(input("Masukkan angka ke-3: "))
 
-res = num1 * num2
+res = num1 * num2 / num3
 
-print("Hasil dari", num1, "x", num2, "adalah", res) 
+print("Hasil dari", num1, "x", num2, "/", num3, "adalah", res) 
